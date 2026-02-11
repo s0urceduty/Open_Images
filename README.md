@@ -24,6 +24,11 @@ Functions:
 17. area_tone(image, region, tone='duotone', colors=['red', 'blue']): Applies duotone or tritone color effects to rectangular regions within an input image using two or three distinct hues for a vintage-style look. 
 18. heatmap(base_img, overlay_img): Generates a "heatmap" effect by blending the base and overlaid images together with varying opacities based on pixel intensities (e.g., highlighting brighter areas).
 
+Prototype Lib
+--------------
+
+Before Open Images is ready for PyPI publication, it must transition from a functional prototype into a fully structured, tested, documented, and distribution-ready package by reorganizing the codebase into a clean modular directory structure with a clearly exposed public API, standardizing region handling and return types across all 18 functions, implementing comprehensive error validation and consistent color-space management, separating core dependencies from optional heavy vision or ML components, ensuring any object detection models are lazily loaded and legally redistributable, writing a complete test suite with strong coverage and cross-platform CI validation, benchmarking performance to eliminate Python-level pixel loops and memory inefficiencies, drafting professional documentation with installation instructions, usage examples, and visual demonstrations, selecting and verifying an appropriate license, confirming PyPI name availability to avoid conflicts with similarly named datasets, preparing a modern pyproject.toml build configuration, validating builds with twine and TestPyPI, and refining the overall user experience through clear error messaging and stable semantic versioning so the library can be released not as an experimental script collection but as a reliable, maintainable, and scalable image processing toolkit suitable for long-term adoption.
+
 --------------
 
 [sourceduty.com](https://sourceduty.com/)

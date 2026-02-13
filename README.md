@@ -5,24 +5,36 @@ Open Images is a custom Python image-focused library module developed by Sourced
 Functions:
 --------------
 
-1. `puzzle_crop` - Crops a piece of the image into a specified puzzle-like shape (e.g., square, triangle).
-2. `area_colorize` - Colorizes one or more rectangular areas within an image with a given color.
-3. `pinned_overlay` - Overlays another image onto the base image at a specified pinpoint location using blending modes like multiply for darkening effects.
-4. `area_template` - Creates an editable template by locking pixels in one or more rectangular regions of the input image while allowing modification outside those areas.
-5. `object_map` - Categorizes and maps objects within an image based on trained models (e.g., person detection).
-6. `wireframe` - Generates a wireframe outline of the visible shapes in an input image with labeled areas for each distinct shape detected using edge detection algorithms.
-7. `area_decay` - Removes or ruins specified rectangular regions within an image by progressively fading out pixels based on a decay factor.
-8. `cut_cookie` - Creates one or more cookie-cut shapes from the input image using provided geometric templates like circles, stars, hearts, etc.
-9. `area_gradient` - Applies a gradient color transition between two specified colors to rectangular regions within an image.
-10. `radial_target` - Overlays concentric circles onto the base image at a given center point with increasing radii and opacity for each circle.
-11. `shape_liquify` - Liquifies or warps pixels within specified rectangular regions of an input image using displacement maps to create organic distortions.
-12. `workspace` - Limits the area where modifications can be made on a given image by defining a bounding box region.
-13. `color_metric` - Analyzes and returns an average or histogram of colors within specified regions of an input image to quantify hue, saturation, and value characteristics.
-14. `arrow_point` - Places a small overlaid arrow at specified coordinates on top of a base image to mark points of interest.
-15. `shade_spot` - Creates light or dark shaded areas within rectangular regions by darkening or brightening pixels based on an intensity factor.
-16. `motion_line` - Applies directional motion blur along specified paths to simulate streaks of movement.
-17. `area_tone` - Applies duotone or tritone color effects to rectangular regions within an image for a stylized look.
-18. `heatmap` - Generates a heatmap effect by blending base and overlay images with varying opacities based on pixel intensities.
+1. 'puzzle_crop' - Crops a piece of the image into a specified puzzle-like shape (e.g., square, triangle).
+2. 'area_colorize' - Colorizes one or more rectangular areas within an image with a given color.
+3. 'pinned_overlay' - Overlays another image onto the base image at a specified pinpoint location using blending modes like multiply for darkening effects.
+4. 'area_template' - Creates an editable template by locking pixels in one or more rectangular regions of the input image while allowing modification outside those areas.
+5. 'object_map' - Categorizes and maps objects within an image based on trained models (e.g., person detection).
+6. 'wireframe' - Generates a wireframe outline of the visible shapes in an input image with labeled areas for each distinct shape detected using edge detection algorithms.
+7. 'area_decay' - Removes or ruins specified rectangular regions within an image by progressively fading out pixels based on a decay factor.
+8. 'cut_cookie' - Creates one or more cookie-cut shapes from the input image using provided geometric templates like circles, stars, hearts, etc.
+9. 'area_gradient' - Applies a gradient color transition between two specified colors to rectangular regions within an image.
+10. 'radial_target' - Overlays concentric circles onto the base image at a given center point with increasing radii and opacity for each circle.
+11. 'shape_liquify' - Liquifies or warps pixels within specified rectangular regions of an input image using displacement maps to create organic distortions.
+12. 'workspace' - Limits the area where modifications can be made on a given image by defining a bounding box region.
+13. 'color_metric' - Analyzes and returns an average or histogram of colors within specified regions of an input image to quantify hue, saturation, and value characteristics.
+14. 'arrow_point' - Places a small overlaid arrow at specified coordinates on top of a base image to mark points of interest.
+15. 'shade_spot' - Creates light or dark shaded areas within rectangular regions by darkening or brightening pixels based on an intensity factor.
+16. 'motion_line' - Applies directional motion blur along specified paths to simulate streaks of movement.
+17. 'area_tone' - Applies duotone or tritone color effects to rectangular regions within an image for a stylized look.
+18. 'heatmap' - Generates a heatmap effect by blending base and overlay images with varying opacities based on pixel intensities.
+19. 'grain_texture' - Injects synthetic noise or film grain into specified regions to simulate vintage sensors or low-light conditions.
+20. 'tile_repeat' - Generates a seamless tiled pattern across a new background canvas using a previously cropped or cookie-cut source.
+21. 'depth_haze' - Simulates atmospheric perspective by applying a semi-transparent fog layer that increases in density based on image height.
+22. 'border_extrapolate' - Mirrors or stretches edge pixels to expand the canvas size to meet specific padding or aspect ratio requirements.
+23. 'chroma_key' - Replaces a specific color range within an image with transparency or a secondary background image.
+24. 'perspective_warp' - Maps a defined workspace or the entire image onto a 3D plane using four-point coordinate transformation.
+25. 'edge_glow' - Isolates the outlines of detected shapes and applies additive Gaussian blurring to create neon or highlighted effects.
+26. 'pixel_sort' - Reorders pixels within a specified workspace based on brightness, saturation, or hue for glitch-art aesthetics.
+27. 'exif_scrub' - Strips or modifies sensitive metadata such as GPS coordinates and camera IDs to ensure privacy in public datasets.
+28. 'dominant_swatch' - Generates a separate palette image containing the top dominant colors found within a specific region of the image.
+29. 'focus_bokeh' - Applies a heavy Gaussian or lens blur to all areas outside a specified radial target to simulate a shallow depth-of-field.
+30. 'text_burn' - Overlays dynamic, high-contrast text or labels directly onto the image pixels for visual data logging and identification.
 
 Prototype Lib
 --------------
